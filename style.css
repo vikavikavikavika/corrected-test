@@ -1,0 +1,90 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(228, 231, 228);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    width: 330px;
+    margin: 10vh auto 0 auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    margin-bottom: 10px;
+    color: #0f2027;
+    text-align: center;
+}
+
+.input-group {
+    margin:10px 0; 
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display:block;
+    width:90%;
+    padding:10px;   
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+ }
+
+ .btn {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #00ff11;
+    border: none;
+    border-radius: 4px;
+ }
+
+a{
+    text-align: center;
+    color: #00ff11;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

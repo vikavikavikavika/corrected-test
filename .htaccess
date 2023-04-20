@@ -1,0 +1,5 @@
+ReWriteEngine On
+
+RewriteCond %{HTTP_REFERER} !^http://localhost/TEST/database.json [NC]
+
+RewriteRule \.(json)$ - [F,L]

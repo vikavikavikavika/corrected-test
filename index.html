@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>,
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  id="create-account-form" method="POST">  
+        <input type="hidden" id="action" value="register">  
+        <div class="title">
+            <h2>Create Account</h2>
+        </div>
+        <!-- LOGIN -->
+        <div class="input-group">
+            <label for="login">Login</label>
+            <input type="text" id="login" placeholder="Name" name="login">
+            <p>Error Message</p>
+        </div>
+        <!-- EMAIL -->
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <p>Error Message</p>
+        </div>
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password">
+            <p>Error Message</p>
+        </div>
+        <!-- CONFIRM PASSWORD -->
+        <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Password" name="confirmpassword">
+            <p>Error Message</p>
+        </div>
+        <!-- USERNAME -->
+        <div class="input-group">
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="Name" name="username">
+            <p>Error Message</p>
+        </div>
+        <a href="login.html">Do you have an account? Log in!</a>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+
+    <!-- JAVASCRIPT -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="signupfunctions.js"></script>
+</body>
+</html>

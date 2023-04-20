@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>,
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  id="account-form" method="POST">  
+        <input type="hidden" id="action" value="login">  
+        <div class="title">
+            <h2>Log in</h2>
+        </div>
+        <!-- LOGIN -->
+        <div class="input-group">
+            <label for="login">Login</label>
+            <input type="text" id="login" placeholder="Login" name="login">
+            <p>Error Message</p>
+        </div>
+         <!-- PASSWORD -->
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password">
+            <p>Error Message</p>
+        </div>
+        <a href="index.html">Don't have an account? Sign up!</a>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <!-- JAVASCRIPT -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="loginfunctions.js"></script>
+</body>
+</html>
